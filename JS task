@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Task 1</title>
+</head>
+<body>
+
+<h1>JavaScript Task 1</h1>
+<p>My Name is</p> 
+<p id="demo"></p>
+
+<script>
+let myName = "Femi Falana";
+document.getElementById("demo").innerHTML = myName;
+</script>
+
+
+<p>The courses i am offering are:</p>
+
+
+<script>
+
+let courses = ['HTML', 'CSS', 'JavaScript'];
+let x;
+
+for (x of courses) {
+ document.write(x + "<br >");
+}
+</script>
+
+<p>Odd Numbers from 1-200 (inclusive) are:</p>
+<script>
+
+for(var i=0; i<=200; i++)
+if (i%2!=0)
+  document.writeln(i);
+</script>
+
+</body>
+</html>
