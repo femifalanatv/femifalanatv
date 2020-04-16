@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>JavaScript Task 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Page</title>
+    <link rel="stylesheet" href="./CSS/main.css">
 </head>
 <body>
+    <main>
+        <section class="image">
+            <img class="top-left" src="profile-pic.png" alt="profile-pic">
+        </section>
+        
+        <section class="form">
+            <form>
+                <div class="heading">
+                <h1>Profile</h1>
+                <p>Femi Falana is the MD/CEO of FALAS FYB GLOBAL SERVICES LIMITED, producer of Dara Sachet Pepper & Dara Sachet Crayfish. Holds an HND in Mechanical Engineering from the Federal Polytechnic Ado Ekiti, Ekiti State and currently studying to become a reputable Frontend Developer with slack ID~ femifalanatv. 
+                    Born on 26th March, 1986, Femi Falana hails from Akure, Ondo State.</p>
 
-<h1>JavaScript Task 1</h1>
-<p>My Name is</p> 
-<p id="demo"></p>
+                    <p1>He has cut his niche in the Consumer Goods and Real Estate sectors of the economy. He has over 10 years working experience, mainly in Production and Project/Facilities Management having worked with FTN Cocoa Processors PLC and Afriland Properties PLC.
+                    Femi Falana is also an Associate Member of Institute of Strategic Management, Nigeria.
+                    
+                    Prior to setting up Falas FYB Global Services Limited, Femi Falana worked with Multiverse PLC, a mining company where he was the Field Engineer. His hobbies include watching football and surfing the internet. Femi Falana has interest in web development and sports.
+                </div>
 
-<script>
-let myName = "Femi Falana";
-document.getElementById("demo").innerHTML = myName;
-</script>
+        <div class="form-group">
+            <label for="Contact">Contact</label>
+            <select name="Contact" id=""value="0">
+                <option value="Click to Contact">Click to Select</option>
+                <option value="Telephone">08034135427</option>
+                <option value="Email">femi.falas@yahoo.com</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
 
-
-<p>The courses i am offering are:</p>
-
-
-<script>
-
-let courses = ['HTML', 'CSS', 'JavaScript'];
-let x;
-
-for (x of courses) {
- document.write(x + "<br >");
-}
-</script>
-
-<p>Odd Numbers from 1-200 (inclusive) are:</p>
-<script>
-
-for(var i=0; i<=200; i++)
-if (i%2!=0)
-  document.writeln(i);
-</script>
-
+            </form>
+        </section>
+    </main>
 </body>
 </html>
