@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javasript Task 3</title>
+</head>
+<body>
+    <script>
+        // Write a function that takes one parameter: a whole number or integer
+        function myWholeNumber(x)
+    { 
+                let Array=[];
+
+                for (let x = 1; x <= 20; x++);
+                
+        // check if numbers from 1 to 20 are divisible by 2
+            if (x%2==0) {
+                return Array.push ("yu")
+            }
+        // check if numbers from 1 to 20 are divisible by 3
+            else if (x%3==0) {
+                return Array.push ("gi")
+            } 
+        // check if numbers from 1 to 20 are divisible by 5
+            else if (x%5==0) {
+                return Array.push ("oh")
+            }
+        // Check if any number from 1 to 20 is divisible by 2 and 3
+            else if (x%2==0 && x%3==0) {
+                return Array.push ("yu-gi")
+            }
+        // Check if any number from 1 to 20 is divisible by 2 and 5
+            else if (x%2==0 && x%5==0) {
+                return Array.push ("yu-oh")
+            }
+        // check if any number from 1 to 20 is divisible by 3 and 5
+            else if (x%3==0 && x%5) {
+                return Array.push ("gi-oh")
+            }
+        // check if any number from 1 to 20 is divisible by 2, 3 and 5
+            else if (x%2==0 && x%3==0 && x%5==0) {
+                return Array.push ("yi-gi-oh")
+            } 
+            else {return Array.push (x);
+            }
+
+        // Return an array containing all numbers from 1 to 20 (inclusive) where all divisible numbers have been replaced as specified above.
+            return Array;}
+            console.log (Array);
+            console.log(myWholeNumber (100))
+        
+    </script>
+</body>
+</html>
